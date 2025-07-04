@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.example.menzi;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -33,7 +33,7 @@ import org.slf4j.Logger;
 public class Menzi
 {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "Menzi";
+    public static final String MODID = "menzi";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
